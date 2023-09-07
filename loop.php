@@ -12,6 +12,10 @@ for($number = 33; $number < 543; $number++){
         echo "<b>$number</b> </br> \n";
     }
     
+    elseif($number % 9 == 0){
+        echo "Developer </br> \n";
+    }
+
     else{
         echo "$number </br> \n";
         
