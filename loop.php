@@ -3,5 +3,13 @@
 
 
 for($number = 33; $number < 543; $number++){
-    echo "$number </br>";
+
+    if($number % 2 == 0){
+        echo "<b>$number</b> </br> \n";
+    }
+    
+    else{
+        echo "$number </br> \n";
+    }
+
 }
