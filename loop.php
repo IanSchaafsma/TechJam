@@ -4,7 +4,11 @@
 
 for($number = 33; $number < 543; $number++){
 
-    if($number % 5 == 0){
+    if($number % 5 == 0 && $number % 9 == 0){
+        echo "Web </br>";
+    }
+
+    elseif($number % 5 == 0){
         echo "Software </br>";
     }
 
